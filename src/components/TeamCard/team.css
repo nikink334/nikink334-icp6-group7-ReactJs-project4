@@ -1,0 +1,54 @@
+
+.Team-item{
+    border: 1px solid rgb(138, 128, 128);
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 250px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 15px 3px  rgb(108, 106, 105);
+ 
+ }
+ 
+ .text-center{
+     text-align: center;
+ }
+ .color-blue{
+     color: rgb(2, 2, 176);
+ }
+ 
+ .team-image{
+     border-radius: 2px;
+     margin-left: 15px;
+    height: 200px;
+    box-shadow: 0 0 1px 1px gainsboro;
+ 
+ }
+ .social-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left:-30px;
+    position: sticky;
+    margin-bottom: 5px;   
+ }
+ 
+ .icon{
+     background-color: blue;
+     color: white;
+     padding: 4px;
+     height: 20px;
+     width: 20px;
+     border-radius: 50%;
+ 
+ }
+ .icon:hover{
+     background-color: white;
+     color: blue;
+     transition: 0.5s;
+       
+ }
+ 

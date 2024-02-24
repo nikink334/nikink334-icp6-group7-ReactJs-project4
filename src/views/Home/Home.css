@@ -1,0 +1,139 @@
+.home-banner-container {
+    display: flex;
+    
+  }
+  
+  .home-bannerImage-container {
+    flex: 2.5; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 5px; 
+  }
+  
+  .home-bannerImage-container img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%; 
+   
+  }
+  
+  .home-text-section {
+    flex: 1.5; 
+    padding: 0 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 5px; 
+  }
+  
+  .primary-heading {
+    font-size: 50px;
+    color: #4c4c4c;
+    max-width: 600px;
+    margin: 10px 40px; 
+  }
+  
+  .primary-text {
+    font-size: 20px;
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 10px 40px; 
+  }
+  
+  .secondary-button {
+    padding: 10px 25px;
+    background-color: #0330c1;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px; 
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    margin: 10px 40px; 
+  }
+  
+  .secondary-button:hover {
+    background-color: #0f72e4;
+    padding: 12px 27px;
+  }
+  
+  .home-banner-container {
+    display: flex;
+  }
+
+  .secHead{
+    color: #0330c1;
+    margin: 0 40px;
+    border-bottom: 3px solid blue;
+  }
+  
+  .home-info-section {
+    flex: 2.5; 
+    padding: 0 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 5px; 
+  }
+  
+  .info-heading {
+    font-size: 50px;
+    color: #4c4c4c;
+    max-width: 600px;
+    margin: 10px 40px; 
+  }
+  
+  .info-text {
+    font-size: 20px;
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 10px 40px; 
+  }
+  
+  .button-container {
+    display: flex;
+
+  }
+
+  .info-button:first-child {
+    margin-right: 0;
+  }
+
+  .info-button {
+    padding: 10px 25px;
+    background-color: #0330c1;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px; 
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+    margin: 10px 40px;
+  }
+  
+  .info-button:hover {
+    background-color: #0f72e4;
+    padding: 12px 27px;
+  }
+  
+  .home-image-container {
+    flex: 1.5; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin: 0 50px; 
+  }
+  
+  .home-image-container img {
+    width: 100%; 
+    height: 300px;
+    max-width: 100%; 
+  }

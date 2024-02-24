@@ -1,24 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-*{
-    margin: 0%;
-}
-.navbar
-{
-    background-color:cadetblue;
+.navbar {
+    background-color: #6495ED; /* Medium Blue */
     color: white;
-    padding: 20px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
-.navbar a{
+
+.menuItems {
     color: white;
     text-decoration: none;
     padding: 10px;
+    margin: 0 5px; 
 }
 
-.brand
-{
-    color:white;
-    font-weight: bolder;
-    font-size:x-large;
-    padding-right: 10px;
+.menuItems:hover {
+    background-color: #87CEFA; 
+}
+
+.leftSide {
+    font-size: 25px;
+}
+
+.navUL {
+    display: flex;
+    list-style: none; 
 }

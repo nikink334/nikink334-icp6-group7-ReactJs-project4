@@ -7,8 +7,8 @@ import secImg from './pexels-tiago-l-br-2497926.jpg'
 import { Link } from 'react-router-dom';
 import { howCards } from '../../config/homecard';
 import HomeCard from '../../components/HomeCard/HomeCard';
-
-
+import { reviewCards } from '../../config/reviewcard';
+import ReviewCard  from '../../components/ReviewCard/ReviewCard';
 
 function Home() {
   return (
@@ -57,7 +57,7 @@ function Home() {
         </div>
       </div>
 
-      <br /><br /> <br/>
+      <br /><br /> <br />
 
       <div className='howItWork'>
         <div className="howItWork-content">
@@ -66,9 +66,7 @@ function Home() {
             Planning your trip is simple. Explore our vast selection of destinations, choose your ideal flights, and get ready for an unforgettable journey. Whether it's a business trip or a vacation, we've got you covered every step of the way.
           </p>
         </div>
-      </div> <br/>
-
-
+      </div> <br />
 
       <div className="home-card-wrapper">
         {howCards.map((card, index) => (
@@ -81,8 +79,37 @@ function Home() {
         ))}
       </div>
 
-      <br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+  
+      <div className='reviewSection'>
+        <div className='review-page-wrapper'>
+          <p className='reviewHead'>What Customers Are Saying About Us.</p> <br />
+          <p className='reviewDesc'>
+            Discover what our customers are saying about their experiences. Read authentic reviews and testimonials from
+            travelers just like you. From destination insights to service feedback, our reviews provide valuable insights
+            to help you plan your next adventure with confidence.
+          </p>
+        </div>
+        <br />
+        <br />
+
+        <div className='review-card-wrapper'>
+          {reviewCards.map((feedback, index) => (
+            <ReviewCard
+              key={index}
+              thumbnail={feedback.thumbnail}
+              title={feedback.title}
+              description={feedback.description}
+            />
+          ))}
+        </div>
+      </div>
+
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <div className='lastBtn'>
+        <button className='info-button'> Read more ..! </button>
+      </div>  <br/><br/>
       <div className="contact-page-wrapper">
         <p className="contactHead">Have Question In Mind? Let Us Help You ! </p> <br />
         <div className="contact-form-container">

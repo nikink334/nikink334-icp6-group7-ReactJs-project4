@@ -1,0 +1,34 @@
+.allCards {
+    width: 400px;
+    height: 300px;
+    background-color: #002D62;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin: 8px;
+    flex-shrink: 0;
+    border: 2px solid none;
+  }
+  
+  .mainTitle {
+    margin: 12px 0;
+  }
+  
+  .allCards img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px auto;
+  }
+  
+  .allCards p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  

@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    background-color: #6495ED; /* Medium Blue */
+    background-color: #6495ED; 
     color: white;
     display: flex;
     justify-content: space-between;

@@ -1,10 +1,12 @@
-import React, { startTransition } from 'react';
+import React from 'react';
 import './Home.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import aeroImg from './place-flying-sunset-sky.jpg';
 import secImg from './pexels-tiago-l-br-2497926.jpg'
 import { Link } from 'react-router-dom';
+import { howCards } from '../../config/homecard';
+import HomeCard from '../../components/HomeCard/HomeCard';
 
 
 
@@ -29,9 +31,7 @@ function Home() {
         <div className="home-bannerImage-container">
           <img src={aeroImg} alt="" />
         </div>
-      </div> 
-      
-
+      </div>
 
 
       <div className="home-banner-container">
@@ -60,8 +60,36 @@ function Home() {
         </div>
       </div>
 
+      <br /><br />
+
+      <div className='howItWork'>
+        <div className="howItWork-content">
+          <h2 className="primary-heading"> How It Works </h2>
+          <p className="primary-text">
+            Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          </p>
+        </div>
+      </div>
+
+      
+
+      <div className="home-card-wrapper">
+        {howCards.map((card, index) => (
+          <HomeCard
+            key={index}
+            thumbnail={card.thumbnail}
+            title={card.title}
+            description={card.description}
+          />
+        ))}
+      </div>
+
+      <br/><br/><br/>
 
       <Footer />
+
+      <br/><br/>
+      
     </div>
   );
 }

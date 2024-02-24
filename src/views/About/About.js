@@ -1,14 +1,20 @@
 import React from 'react'
 import './About.css'
+<<<<<<< HEAD
 import Navbar from '../../components/Navbar/Navbar'
 import TeamCard from '../../components/TeamCard/team'
 import { TEAM_DATA } from '../config'
 import Image from './flightImage.jpg'
 
+=======
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+>>>>>>> 1388367de03de35d14b36430383ef9b169182f44
 
 function About() {
   return (
     <div>
+<<<<<<< HEAD
       <Navbar/>
        <h2 className='heading'>About Us</h2>
       
@@ -41,6 +47,19 @@ function About() {
 
 
 
+=======
+      
+      <Navbar />   
+
+        <br/><br/>
+
+        <h1> About Us Page </h1>
+
+        <br/><br/>
+
+      <Footer />
+      
+>>>>>>> 1388367de03de35d14b36430383ef9b169182f44
     </div>
   )
 }

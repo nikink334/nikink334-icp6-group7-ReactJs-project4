@@ -1,24 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-*{
-    margin: 0%;
+.flightLogo{
+    height: 70px;
+    justify-content: center;
 }
-.navbar
-{
-    background-color:cadetblue;
+
+.navbar {
+    background-color: #002D62;
     color: white;
-    padding: 20px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 90px;
 }
-.navbar a{
+
+.menuItems {
     color: white;
     text-decoration: none;
     padding: 10px;
+    margin: 0 5px;
+    margin-left: 20px; 
+    font-size: 20px;
+    font-weight: 50;
+    
 }
 
-.brand
-{
-    color:white;
+
+.menuItems:hover {
+    color: white;
+    transition: 0.4s;
+    font-size: 23px;
     font-weight: bolder;
-    font-size:x-large;
-    padding-right: 10px;
+}
+
+.leftSide {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.navUL {
+    display: flex;
+    list-style: none; 
 }

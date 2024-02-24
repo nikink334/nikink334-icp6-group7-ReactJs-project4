@@ -4,28 +4,43 @@
     box-sizing: border-box;
 }
 
+.flightLogo{
+    height: 70px;
+    justify-content: center;
+}
+
 .navbar {
-    background-color: #6495ED; 
+    background-color: #002D62;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    height: 90px;
 }
 
 .menuItems {
     color: white;
     text-decoration: none;
     padding: 10px;
-    margin: 0 5px; 
+    margin: 0 5px;
+    margin-left: 20px; 
+    font-size: 20px;
+    font-weight: 50;
+    
 }
 
+
 .menuItems:hover {
-    background-color: #87CEFA; 
+    color: white;
+    transition: 0.4s;
+    font-size: 23px;
+    font-weight: bolder;
 }
 
 .leftSide {
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .navUL {

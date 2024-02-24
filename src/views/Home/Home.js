@@ -19,7 +19,7 @@ function Home() {
       <div className="home-banner-container">
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Explore the Skies with Ease
+            Explore the Skies with Ease !
           </h1>
           <p className="primary-text">
             Our flight booking system offers a seamless experience, allowing you to effortlessly plan your travels and soar to your desired destinations. With user-friendly interfaces and a wide range of options, booking flights has never been easier. Whether you're jetting off for business or leisure, trust us to provide you with the best deals and smoothest journey possible.
@@ -39,10 +39,7 @@ function Home() {
           <img src={secImg} alt="" />
         </div>
         <div className="home-info-section">
-          <h3 className='secHead'> About &nbsp; &nbsp;  </h3>
-          <h1 className="info-heading">
-            Explore the Skies with Ease
-          </h1>
+          <h1 className="info-heading"> About Airborne Adventures. </h1>
           <p className="info-text">
             Our flight booking system offers a seamless experience, allowing you to effortlessly plan your travels and soar to your desired destinations. With user-friendly interfaces and a wide range of options, booking flights has never been easier. Whether you're jetting off for business or leisure, trust us to provide you with the best deals and smoothest journey possible.
           </p>
@@ -60,18 +57,18 @@ function Home() {
         </div>
       </div>
 
-      <br /><br />
+      <br /><br /> <br/>
 
       <div className='howItWork'>
         <div className="howItWork-content">
-          <h2 className="primary-heading"> How It Works </h2>
+          <h2 className="primary-heading"> How To  Book Flights ? </h2>
           <p className="primary-text">
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+            Planning your trip is simple. Explore our vast selection of destinations, choose your ideal flights, and get ready for an unforgettable journey. Whether it's a business trip or a vacation, we've got you covered every step of the way.
           </p>
         </div>
-      </div>
+      </div> <br/>
 
-      
+
 
       <div className="home-card-wrapper">
         {howCards.map((card, index) => (
@@ -84,12 +81,20 @@ function Home() {
         ))}
       </div>
 
-      <br/><br/><br/>
+      <br /><br /><br />
+
+      <div className="contact-page-wrapper">
+        <p className="contactHead">Have Question In Mind? Let Us Help You ! </p> <br />
+        <div className="contact-form-container">
+          <input type="text" placeholder="yourmail@gmail.com" />
+          <button className="secondary-button"> Submit </button>
+        </div>
+      </div> <br /><br />
 
       <Footer />
 
-      <br/><br/>
-      
+      <br /><br />
+
     </div>
   );
 }

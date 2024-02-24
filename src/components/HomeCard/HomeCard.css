@@ -1,50 +1,50 @@
 .home-card-wrapper {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-wrap: nowrap; /* Prevent wrapping to keep cards in one line */
-    margin-left: 100px; /* Add a left margin of at least 100px */
-    margin-right: 100px; /* Add a right margin of at least 100px */
-  }
-  
-  .homeCard {
-    width: 230px; /* Set width to 200px */
-    height: 300px; /* Set height to 250px */
-    background-color: #0f72e4;
-    padding: 10px 20px; /* Adjust padding as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px; /* Adjust border radius as needed */
-    color: black;
-    margin: 8px; /* Adjust margin as needed */
-    flex-shrink: 0; /* Prevent cards from shrinking */
-    border: 2px solid black;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
-  .homeCard:hover{
-    background-color: #0330c1;
-    color: white;
-  }
-  
-  .homeCard h1 {
-    margin: 12px 0; /* Adjust margin as needed */
-  }
+.homeCard {
+  width: 230px;
+  height: 300px;
+  background-color: #002D62;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  margin: 8px;
+  flex-shrink: 0;
+  border: 2px solid none;
+}
 
-  .homeCard img {
-    width: 100px; /* Set width to 150px */
-    height: 100px; /* Set height to 150px */
-    object-fit: cover; /* Ensure the image covers the entire container */
-    border-radius: 5px; /* Adjust border radius as needed */
-  }
-  
-  
-  .homeCard p {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    
-  }
-  
+.homeCard:hover {
+  background-color: #0066b2;
+  transition: 0.4S;
+  color: white;
+}
+
+.mainTitle{
+  margin: 12px 0;
+}
+
+.homeCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-top: 10px auto;
+}
+
+
+.homeCard p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+}

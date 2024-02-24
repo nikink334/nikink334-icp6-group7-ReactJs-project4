@@ -1,20 +1,16 @@
 import React from 'react'
 import './About.css'
-<<<<<<< HEAD
 import Navbar from '../../components/Navbar/Navbar'
 import TeamCard from '../../components/TeamCard/team'
-import { TEAM_DATA } from '../config'
+import { TEAM_DATA } from '../../config/Team'
 import Image from './flightImage.jpg'
-
-=======
-import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
->>>>>>> 1388367de03de35d14b36430383ef9b169182f44
+
 
 function About() {
   return (
-    <div>
-<<<<<<< HEAD
+    <div> 
+
       <Navbar/>
        <h2 className='heading'>About Us</h2>
       
@@ -26,42 +22,28 @@ function About() {
          
         </span>
       </div>
-      <div>
-
-      </div>
+     
         <div>
           <br/>  <br/>  <br/>  <br/>
                 <h2 className='heading'>Our Team</h2>
                 <br/>  <br/>  <br/> 
-            </div>
-            <div className='container'>
+        </div>
+         <div className='container'>
         {
           TEAM_DATA.map((teamObj,index)=>{
             const {Name,image,position,description}=teamObj;
 
             return <TeamCard   Name={Name} image={image} position={position} description={description} key={index}/>
+
           })
         }
-           </div>
-
-
-
-
-=======
-      
-      <Navbar />   
-
-        <br/><br/>
-
-        <h1> About Us Page </h1>
-
-        <br/><br/>
-
-      <Footer />
-      
->>>>>>> 1388367de03de35d14b36430383ef9b169182f44
     </div>
-  )
-}
+    <Footer/>
+    </div> 
+  
+       )
+      }  
+   export default About 
 
-export default About
+   
+
